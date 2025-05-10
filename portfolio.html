@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Photography Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">PhotoLens</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <header class="portfolio-header">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p>A collection of my best work across different photography styles</p>
+        </div>
+    </header>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="landscape">Landscape</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="travel">Travel</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="portfolio-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Landscape Photos -->
+                <div class="gallery-item landscape">
+                    <a href="https://images.unsplash.com/photo-1506744038136-46273834b3fb" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Mountain Lake">
+                        <div class="item-overlay">
+                            <h3>Mountain Lake</h3>
+                            <p>Serene mountain landscape at sunrise</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item landscape">
+                    <a href="https://images.unsplash.com/photo-1434394354979-a235cd36269d" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1434394354979-a235cd36269d" alt="Desert Vista">
+                        <div class="item-overlay">
+                            <h3>Desert Vista</h3>
+                            <p>Dramatic desert landscape at sunset</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Portrait Photos -->
+                <div class="gallery-item portrait">
+                    <a href="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04" alt="Natural Portrait">
+                        <div class="item-overlay">
+                            <h3>Natural Light Portrait</h3>
+                            <p>Candid portrait in natural lighting</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item portrait">
+                    <a href="https://images.unsplash.com/photo-1517841905240-472988babdf9" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9" alt="Studio Portrait">
+                        <div class="item-overlay">
+                            <h3>Studio Portrait</h3>
+                            <p>Professional studio lighting portrait</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Wedding Photos -->
+                <div class="gallery-item wedding">
+                    <a href="https://images.unsplash.com/photo-1519741497674-611481863552" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" alt="Wedding Ceremony">
+                        <div class="item-overlay">
+                            <h3>Wedding Ceremony</h3>
+                            <p>Beautiful outdoor wedding moment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item wedding">
+                    <a href="https://images.unsplash.com/photo-1583939003579-730e3918a45a" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a" alt="Wedding Details">
+                        <div class="item-overlay">
+                            <h3>Wedding Details</h3>
+                            <p>Capturing the special moments</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Travel Photos -->
+                <div class="gallery-item travel">
+                    <a href="https://images.unsplash.com/photo-1493246507139-91e8fad9978e" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e" alt="City Life">
+                        <div class="item-overlay">
+                            <h3>Urban Exploration</h3>
+                            <p>Vibrant city life and architecture</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item travel">
+                    <a href="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2" class="lightbox">
+                        <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2" alt="Ancient Architecture">
+                        <div class="item-overlay">
+                            <h3>Historical Sites</h3>
+                            <p>Exploring ancient architecture</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: contact@photolens.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Me</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PhotoLens. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html> 
